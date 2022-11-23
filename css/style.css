@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar{
+    
+    display:flex;
+}
+.left-nav{
+   width: 70%;
+  
+   display: flex;
+    color: white;
+}
+
+.left-nav li{
+    list-style: none;
+    padding: 30px 30px;
+   
+}
+
+.left-nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.left-nav li::after{
+    content:'';
+    width:0%;
+    height:2px;
+    background:#f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.left-nav li:hover::after{
+    width: 100%;
+}
+
+.left-nav li a:hover{
+    color:red;
+    
+    
+}
+.right-nav{
+    width:30%;
+    text-align: right;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#search{
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.navbackground{
+   
+    background:rgb(0, 0, 0,0.5) url("../images/digitalIndiacover.png");
+   /* background-image:  url("../images/laptop_desk_drone_headphones_music-wallpaper-1920x1080.jpg");  */
+   background-blend-mode: darken;
+   min-height: 100vh;
+}
+
+.news1{
+    padding:2%;
+    justify-content: space-evenly;
+    
+}
+.news1 ul li{
+    list-style-type: circle;
+}
+.imgpara img{
+    width: 500px;
+    height: 300px;
+}
+.newsbackground{
+    background-image: url("../images/greybackground.webp");
+    background-blend-mode: darken;
+  
+
+}
+.newsbackground  a{
+    padding: 2%;
+}
+.news1background {
+    background-color: #50577A;
+}
+.copyright{
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+.firstsession p{
+    width:90%;
+    color:#fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    background-color: #6B728E;
+}
