@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     font-family: 'Raleway', sans-serif;
+   
 }
 
 .navbar{
@@ -70,6 +71,34 @@
    min-height: 100vh;
 }
 
+.navotherbackground{
+    background-color: #525252;
+    background-blend-mode: darken;
+
+
+}
+.box-main{
+    background-color: #525252;
+    
+    
+}
+.firsthalf{
+    padding: 20%;
+    text-align: center;
+    background-color: #50577A;
+    color: #fff;
+    display: block;
+    
+}
+#img-gadgets{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 350px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .news1{
     padding:2%;
     justify-content: space-evenly;
@@ -91,7 +120,10 @@
 .newsbackground  a{
     padding: 2%;
 }
-.news1background {
+.newsbackground  ul li{
+    margin: 2%;
+}
+.main-news1 {
     background-color: #50577A;
 }
 .copyright{
@@ -108,4 +140,63 @@
     transform:translate(-50%,-50%);
     text-align: center;
     background-color: #6B728E;
+}
+
+.reg-container{
+
+    display: flex;
+    padding: 16px;
+    background-color:skyblue;
+    text-align: justify;
+    padding: 2%;
+}
+.reg-left-div{
+    width:50%;
+    color: white;
+    background-color: blue;
+    padding: 2%;
+}
+.reg-right-div{
+    width:50%;
+    color: black;
+    background-color: white;
+    padding: 2%;
+}
+
+.cont-in-name{
+ padding: 2%;
+ margin: 3%;
+}
+.cont-in-email{
+    padding: 2%;
+    margin: 3%;
+}
+.cont-in-message{
+    padding: 2%;
+    margin: 3%;
+
+}
+
+.about{
+    padding: 10%;
+    background: grey;
+    color: white;
+    margin: 3%;
+    border: groove;
+    text-align: center;
+}
+
+#about-head{
+   
+    margin: 3%;
+}
+
+#about-p1{
+    
+    margin: 3%;
+}
+
+#about-p2{
+   
+    margin: 3%;
 }
