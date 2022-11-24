@@ -102,6 +102,8 @@
 .news1{
     padding:2%;
     justify-content: space-evenly;
+    margin: 3%;
+    padding: 4%;
     
 }
 .news1 ul li{
@@ -123,9 +125,7 @@
 .newsbackground  ul li{
     margin: 2%;
 }
-.main-news1 {
-    background-color: #50577A;
-}
+
 .copyright{
     color:white;
     background-color: black;
@@ -199,4 +199,11 @@
 #about-p2{
    
     margin: 3%;
+}
+
+.img-standard{
+    height:350px;
+    width:300px;
+    border: groove;
+   
 }
